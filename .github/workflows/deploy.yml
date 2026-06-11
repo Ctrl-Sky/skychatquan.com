@@ -9,8 +9,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      working-directory: ${{ vars.WEBSITE_ROOT }}
 
     steps:
       - uses: actions/checkout@v6
@@ -24,7 +22,7 @@ jobs:
 
       # Build the hugo site, --minify reduces file sizes and then saves to public/
       - name: Build
-        run: hugo --minify
+        run: cd skychatquan.com && hugo --minify
 
       # Copy website content to server
       - name: Deploy to Server
@@ -33,6 +31,7 @@ jobs:
           host: ${{ vars.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
-          source: "public/"
+          source: "skychatquan.com/public/"
           target: "/var/www/skychatquan.com"
           strip_component: 1 # This removes the public/ prefix fomr the path
+          rm: true # Removes old files on the server before copying new ones
