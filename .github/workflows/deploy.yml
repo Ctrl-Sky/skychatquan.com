@@ -33,5 +33,3 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "skychatquan.com/public/"
           target: "/var/www/skychatquan.com"
-          strip_component: 1 # This removes the public/ prefix fomr the path
-          rm: true # Removes old files on the server before copying new ones
