@@ -9,6 +9,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      working-directory: ${{ vars.WEBSITE_ROOT }}
 
     steps:
       - uses: actions/checkout@v6
