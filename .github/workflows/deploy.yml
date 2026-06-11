@@ -28,7 +28,7 @@ jobs:
       - name: Deploy to Server
         uses: appleboy/scp-action@master
         with:
-          host: ${{ var.SERVER_HOST }}
+          host: ${{ vars.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "public/"
