@@ -33,3 +33,4 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "skychatquan.com/public/*"
           target: "/var/www/skychatquan.com"
+          rm: true # Deletes target directory before recreating again for scp
