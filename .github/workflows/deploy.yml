@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Checkout Repository
+      - uses: actions/checkout@v6
         with:
           submodules: true
       
@@ -19,16 +20,17 @@ jobs:
         with:
           hugo-version: '0.163.0'
 
+      # Build the hugo site, --minify reduces file sizes and then saves to public/
       - name: Build
         run: hugo --minify
 
+      # Copy website content to server
       - name: Deploy to Server
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.SERVER_HOST }}
+          host: ${{ var.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "public/"
           target: "/var/www/skychatquan.com"
-          strip_component: 1
-          
+          strip_component: 1 # This removes the public/ prefix fomr the path
