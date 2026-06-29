@@ -11,11 +11,16 @@ This post details my work on this VERY website and how its creation came to be. 
 * The Infrastructure: https://github.com/Ctrl-Sky/skychatquan-infra.git
 * The Website: https://github.com/Ctrl-Sky/skychatquan.com.git 
 
-# A Quick Look at the Project
-This project automatically spins up an AWS EC2 instance with a configured VPC, a firewall with open HTTP, HTTPS, and SSH ports
+# Project Overview
+This project uses Terraform and Ansible to automatically spin up and configure an AWS EC2 instance for hosting my personal website. This website is created via Hugo and automatically deployed to the server with each push to the website repo. Additionally, Nginx is used as the webserver to handle HTTP request and Cloudflare is used as the DNS provider.
+
+To get into the specifics, on the infrastructure side, this project uses Terraform, hooked up to AWS and Cloudflare, to automatically spins up an AWS EC2 instance and configure a VPC, a firewall with open HTTP, HTTPS, and SSH ports, a static IP for the server, and attaching that static IP to Cloudflare for DNS. After the EC2 instance is spun up, the static IP is passed to Ansible where it SSHs onto the server and begins to configure it. There, Ansible creates users for Github Actions deployment, installs and configures nginx to correctly handle HTTP request, and uses Let's Encrypt Certbot to receive an SSL certificate. 
+
+On the website side, the website content is written onto markdown and Hugo is used to convert the markdown into HTML, CSS and JS. The changes are taken by Github Actions and automatically built and deployed to the server.
 
 # Tools Used
 * Linux
+* Nginx
 * Cloudflare
 * AWS EC2
 * Terraform
