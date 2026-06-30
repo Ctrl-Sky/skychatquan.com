@@ -20,9 +20,8 @@ Furthermore, the generated resume, cover letter, and job description is stored i
 # Tools Used
 * Python
 * Groq
-* Shell 
-* Powershell
 * Bash
+* Powershell
 
 # The Purpose for Creation
 Back in my second year when I was applying for jobs, I felt the application process to be very tedious. I was applying to many different jobs and which each job I was personalizing my resume, this would result in many different variation of my resume being all over the place. On top of that, when I landed an interview, because I was applying to so many jobs, I was unable to identify which resume I used in the application or even what the job description was. This, of course, created many problems for me when the interview came along. So, because of those reasons, I decided to create this project to remove the tediousness of each application and better organize my different resumes and files. Leading to smoother more efficient application process.

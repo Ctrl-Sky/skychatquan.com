@@ -8,8 +8,23 @@ tags:
   - project
 ---
 
-# Project Overview
-This is a personal expense tracker automation tool. This is something I created to help keep track of my expenses across multiple different cards. It takes account activity of each card as a csv format, standardizes all of them to fit my specific format, and then combines them all into one master excel file. Filtering each purchase into a new sheet respective to the month the expense was made in.
+# Project Overviews
+I worked as a DevOps Engineer Intern at Ontario Teachers' Pension Plan. I worked there from September 2024 - August 2025. Throughout that year, I worked on a variety of different projects and below are some examples of projects I worked on:
+
+* Rearchitected my company's Docker base image system within Nexus, where I onsolidated multiple redundant images into a single standardized Ubuntu base image
+* Worked with my lead senior developer on a POC for migrating CI/CD workflows from Jenkins to GitHub Actions. Where I evaluated the capabilities and limitation of GitHun Actions compared to Jenkins. Afterwards, I presented my findings to senior leadship and helped influence the adoption across multiple teams.
+* Increased logging visibility within Ansible and Jenkins for Flyway database migrations
+across Snowflake, MSSQL, Azure, and Oracle.
+* Implemented CI/CD pipelines using Jenkins, GitHub, Ansible, and SonarQube to
+automate deployment and testing processes of .NET, python, and C# applications.
+* Developed a Jenkins pipeline and Python script to automate internal webpage updates via
+a RESTful API POST request.
+* Worked within the Software Development Life Cycle (SDLC) methodologies to complete project-
+specific development tasks within Agile and Scrum frameworks.
+* I used SonarQube to perform automated code quality testing and static analysis
+testing across Dev, UAT, and Production environments.
+* I deployed and automated Snowflake environments using Ansible, with containerized
+workflows running on Docker and Kubernetes.
 
 # Tools Worked With
 * Python
@@ -29,6 +44,5 @@ This is a personal expense tracker automation tool. This is something I created 
 * Jira
 * Confluence
 
-
-# The Purpose for Creation
-I'm really big on managing my money and after getting my second credit card, I found it much harder to keep track of everything since I had to jump from one banking page to another. What I wanted was a centralized place to view all my finances month by month. So, I created this python script that combines them all into one place and splits them depending on the month.
+# Why I chose OTPP
+I had a friend who worked there that told me about the amazing culture Teachers' has. They have multiple different venues for people to apply themselves outside of their work through their many ERGs (employee resource groups). This is what pulled me to the company. So when I started working, I took part in the Chinese group ERG where we planned the annual chinese new years event, the pride ERG where I helped setup presentations during pride month, and lots of opportunity for charity work where I climbed the CN Tour to raise money for United Way.

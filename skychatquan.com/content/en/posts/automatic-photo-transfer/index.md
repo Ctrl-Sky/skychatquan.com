@@ -22,7 +22,6 @@ The current supported file types are:
 * HEIC
 * MP4
 * MOV
-Any unknown files encountered are transferred into an a directory for manual sorting.
 
 # Tools Used
 * Python
