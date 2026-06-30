@@ -1,24 +1,24 @@
 ---
 title: About
-description: 'Hugo, the world''s fastest framework for building websites'
+description: About my website
 author: Hugo Authors
 exclude_from_rss: true
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hey my name is Sky, I'm a Computer Science student at McMaster University with a passion for software engineering, DevOps, automation, and cloud technologies. I enjoy building automation tools that solve problems I find in my day-to-day life.
 
-Hugo makes use of a variety of open source projects including:
+This website serves as my portfolio where I share:
+* Software engineering and DevOps projects
+* Personal programming projects
+* Experimentation with cloud technologies and automation
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+My current interests include:
+* DevOps and CI/CD
+* Cloud infrastructure
+* Docker and Kubernetes
+* Infrastructure as Code
+* Python automation
+* Backend development
+* Software engineering best practices
+* Operating systems
+* Information security

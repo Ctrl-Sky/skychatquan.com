@@ -81,7 +81,17 @@ theme = "hugo-blog-awesome"
   # You can take a look at layouts/index.html for more information.
   description = "My website hosting all of my experience and personal projects"
   mainSections = ['posts']
-  toc = false # set to false to disable table of contents 'globally'
+  toc = false # set to false to disable table of contents 'globally'My current interests include:
+
+DevOps and CI/CD
+Cloud infrastructure
+Docker and Kubernetes
+Infrastructure as Code
+Python automation
+Backend development
+Software engineering best practices
+Operating systems
+Information security
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
@@ -101,7 +111,7 @@ theme = "hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Sky Quan"
   name = "Sky Quan"
-  description = "My website hosting all of my experience and personal projects"
+  description = "I'm a Computer Science student at McMaster University, I enjoy building automation tools that solve problems I find in my day-to-day life. Here is my website hosting all of my experience and personal projects"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
