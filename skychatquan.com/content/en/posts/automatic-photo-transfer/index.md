@@ -7,7 +7,7 @@ tags:
   - project
 ---
 
-This post details my work on my automated Groq job application project. The code can be found on my GitHub here:
+This post details my work on my Automatic Photo Transfer project. The code can be found on my GitHub here:
 
 * https://github.com/Ctrl-Sky/automatic-photo-transfer-2.0.git
 
