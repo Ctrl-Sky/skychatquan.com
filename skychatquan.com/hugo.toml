@@ -111,7 +111,7 @@ Information security
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Sky Quan"
   name = "Sky Quan"
-  description = "I'm a Computer Science student at McMaster University, I enjoy building automation tools that solve problems I find in my day-to-day life. Here is my website hosting all of my experience and personal projects"
+  description = "I am a Computer Science student at McMaster University, I enjoy building automation tools that solve problems I find in my day-to-day life. Here is my website hosting all of my experience and personal projects"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
